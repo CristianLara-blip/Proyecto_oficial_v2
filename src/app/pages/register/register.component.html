@@ -1,0 +1,87 @@
+<div class="letra d-flex justify-content-center align-items-center" style="width: auto;height: 120vh; background-image: url(https://munichaclacayo.gob.pe/portals/slider/imagenes/3.jpg); background-size: cover; background-position: center center;">
+  <div class="card shadow" style="width: 25rem;">
+    <div class="m-4">
+      <div class="align-items-center d-flex justify-content-center">
+        <img [routerLink]="['/principal']" style="width:14rem" src="./assets/img/iconos/logo_inicio.png">
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md-5">
+          <div class="">
+            <label for="floatingInput"><b> DNI:</b></label>
+            <input type="text" class="form-control form-control-sm" placeholder="DNI" >
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Nombre:</b></label>
+            <input type="text" class="form-control form-control-sm"  placeholder="Nombre" >
+          </div>
+        </div>
+      </div> 
+      <div class="row g-2 mt-2">
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Apellido paterno:</b></label>
+            <input type="text" class="form-control form-control-sm" placeholder="Apellido paterno" >
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Apellido materno:</b></label>
+            <input type="text" class="form-control form-control-sm"  placeholder="Apellido materno" >
+          </div>
+        </div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Correo electrónico:</b></label>
+            <input type="email" class="form-control form-control-sm" placeholder="Correo electrónico" >
+          </div>
+        </div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md-7">
+          <div class="">
+            <label for="floatingInput"><b> Fecha de nacimiento:</b></label>
+            <input type="date" class="form-control form-control-sm" placeholder="Fecha de nacimiento" >
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Teléfono:</b></label>
+            <input type="text" class="form-control form-control-sm"  placeholder="Teléfono" >
+          </div>
+        </div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Dirección:</b></label>
+            <input type="text" class="form-control form-control-sm" placeholder="Dirección" >
+          </div>
+        </div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Contraseña:</b></label>
+            <input type="password" class="form-control form-control-sm" placeholder="Contraseña" >
+          </div>
+        </div>
+      </div>
+      <div class="row g-2 mt-2">
+        <div class="col-md">
+          <div class="">
+            <label for="floatingInput"><b> Confirmar contraseña:</b></label>
+            <input type="password" class="form-control form-control-sm" placeholder="Confirmar contraseña" >
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 mt-3">
+        <button [routerLink]="['/login']" type="button" class="btn btn-success btn-sm col-lg-12 "><b>REGISTRATE</b></button>
+        <button [routerLink]="['/login']" type="button" class="btn btn-warning btn-sm text-white col-lg-12 mt-2"><b>INICIE SESIÓN</b></button>
+      </div>
+    </div>
+  </div>
+</div>
